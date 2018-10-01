@@ -1,0 +1,310 @@
+
+/*MAIN OR MULTI SECTION*/
+@font-face{
+    font-family: "PulseFont";
+    src: url(/assets/Helvetica_Neue_LT/HelveticaNeueLTStd-MdCn.otf)
+}
+*{
+    box-sizing: border-box;
+    font-family: "PulseFont","Helvetica Neue",Helvetica,Arial,sans-serif; 
+
+}
+body{
+    margin:0px;
+    background-color: #d9d9d9;
+
+}
+.page-content{
+    overflow:hidden;
+ }
+ #about h2,.wedo-left h2{
+    font-size: 60px;
+    font-weight: 200;
+    color:#00355f;
+}
+
+/*HEADER AND NAVIGATION*/
+section{
+    margin-bottom: 10px;
+}
+header{
+    font-family: "PulseFont","Helvetica Neue",Helvetica,Arial,sans-serif; 
+    height:150px;
+    padding: 0px 0 0 0;
+    width: 100%;
+    position: fixed;
+    background-color:#ffff;
+    z-index: 9999;
+}
+nav{
+    margin: 0 auto;
+    height:130px;
+	width:100%;
+	line-height:30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding-top:0px;
+    margin-top:0px;
+}
+nav ul li{
+    display:inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    vertical-align: bottom;
+    font-size: 18px;
+    font-weight: bold;
+}
+#global-logo{
+    float:right;
+    margin-right:25px;
+    position: relative;
+}
+#burger-nav{
+    display: none;
+}
+/*MAIN IMPACT SECTION*/
+#amtaxVid{
+   color: #f1f1f1;
+   overflow: hidden;
+   width:100%;
+   margin-top:150px;
+}
+#scroll-more{/*FIX ITS PLACEMENT*/
+  position: absolute;
+  bottom:0;
+  left: 600px;
+  width: 300px;
+padding: 20px;
+top:730px;
+}
+
+/*ABOUT SECTION*/
+#about{
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+#about p, #what-we-do p{
+    font-size: 20px;
+}
+/*WHAT WE DO SECTION*/
+#what-we-do{
+    background:url("assets/images/images_desktop/what-we-do_city.png") no-repeat top center fixed;
+    background-size: cover;
+    height:650px;
+    position: relative;
+}
+.what-we-do{
+    z-index: 10;
+}
+.wedo-left{
+    vertical-align: middle;
+    padding-top:170px; 
+    display: inline-block;
+    margin-left: 140px;
+
+    /* position: absolute;
+    left:100px; */
+}
+.wedo-right{
+    padding-top:35px;
+    display: inline-block;
+    margin-left: 50px;
+
+    /* position: absolute;
+    right:100px; */
+}
+hr{
+    height: 5px;
+    background-color:#4e8abe;
+}
+
+
+.top-white-bar{
+    position: relative;
+    margin:0;
+}
+.white-bar{
+    position: absolute;
+    background: rgba(255,255,255,.8);
+    width: 1440px;
+    display: block;
+    height: 380px;
+    top:150px;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: 0;
+}
+/*FOOTER SECTION*/
+footer{
+    position: relative;
+    margin: 0;
+    padding:10px;
+    padding-left:250px;
+    background-color: #00244a;
+    color: #ffff;
+}
+
+footer span img{
+    width:24px;
+    height:24px;
+}
+#footer_logo{
+    width:107px;
+    height: 130px;
+    padding:10px 0 0 0;
+}
+.address{
+    position: relative;
+}
+.address span{
+    position: absolute;
+}
+
+/*MEDIA and RWD*/
+@media (max-width: 800px) {
+    /*header and navigation*/
+    #burger-nav{
+        display: block;
+        position: absolute;
+        top: 100px;
+        cursor: pointer;
+    }
+    header nav li{
+        float:none;
+        width: 100%;
+        margin:0;
+        display:block;
+        margin-top:5px;
+
+    }
+    header .wrapper{
+        padding:0;
+        width:100%;
+    }
+    header nav ul{
+        margin-top:25px;
+        height:0;
+        overflow: hidden;
+    }
+    header nav ul.open{
+        height: auto;
+
+    }
+    header{
+        background-color: #00244a;
+        height:150px;
+    }
+    header nav ul.open li a:hover{
+        color: #ffff;
+    }
+
+    /*scroll for more button*/
+    #scroll-more{
+        /* top:400px;
+        left:320px;
+        /* height:25px; 
+        width:200px;   */
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin: 450px 320px;
+    }
+
+    /*What we do*/
+    .wedo-left{
+        margin-left:50px;
+        padding-top:196px;
+    }
+    #what-we-do p{
+        font-size: 15px;
+        width:350px;
+    }
+    #what-we-do h2{
+        width:370px;
+    }
+    .wedo-right{
+        margin-left:0;
+        position: relative;
+    }
+    .wedo-right img{
+        width:350px;
+        margin-top: 130px;
+    }
+    .white-bar{
+        height:300px;
+        position: absolute;
+        top:200px;
+    }
+    /*footer*/
+    .address{
+        margin-left:50px;
+        position: relative;
+    }
+    .address span{
+        position: absolute;
+        top:40px;
+    }
+    .social-media{
+        margin:20px 0px;
+    }
+    #copyright{
+        font-size: 15px;
+    }
+}
+@media (max-width: 480px) {
+    /*main impact section and scroll for more button*/
+    #scroll-more{
+        margin:330px 150px;
+        width:160px;
+    }
+    #about p{
+        font-size:15px;
+    }
+    /*what we do*/
+    #what-we-do{
+        height:750px;
+    }
+    .white-bar{
+        height:500px;
+        top:100px;
+    }
+    .wedo-left{
+        padding-top:100px;
+        display:block;
+    }
+    .wedo-right{
+        padding-top:0;
+        margin-left:23px;
+        left: 24px;
+        display:block;
+    }
+   .wedo-right img{
+       margin-top:0;
+   }
+
+   /*footer*/
+   footer{
+       padding-left:150px;
+       height:400px;
+   }
+   .address{
+    margin-left:0px;
+   }
+   .address span{
+    margin-top:0px;
+    top:0;
+}
+   .social-media{
+    margin-top:50px;
+   }
+   #copyright{
+       margin-top:40px;
+   }
+}

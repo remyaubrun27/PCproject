@@ -1,0 +1,271 @@
+/*COMPUTER SCREEN*/
+div.wheel-links{
+    background-color: black;
+}
+.wheel-links a{
+    position: absolute;
+    color:#ffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+    font-weight: bold;
+    width:100px;
+}
+#fed-tax{/*right size*/
+    display: block;
+    top:94px;
+    left:252px;
+}
+#state-local-tax{/*right size*/
+    display:block;
+    top:90px;
+    left: 344px;
+}
+#global-trans{/*right size*/
+    display:block;
+    top:120px;
+    left: 428px;
+}
+#international-tax{/*right size*/
+    display:block;
+    top:201px;
+    left:493px;
+}
+#real-estate-tax{/*right size*/
+    display:block;
+    top:289px;
+    left:516px;
+}
+#sale-use{/*right size*/
+    display:block;
+    top:381px;
+    left:510px;
+}
+#bankruptcy{/*right size*/
+    display:block;
+    left:468px;
+    bottom:113px;
+}
+#transfer-pricing{/*right size*/
+    display:block;
+    bottom: 64px;
+    left:392px;
+}
+#research-incentives{/*right size*/
+    display:block;
+    bottom: 38px;
+    left:296px;
+}
+#private-client{/*right size*/
+    display:block;
+    bottom: 66px;
+    left:203px;
+}
+#uk-tax{/*right size*/
+    display:block;
+    bottom: 209px;
+    left:85px;
+}
+#compensation{/*right size*/
+    display:block;
+    bottom:122px;
+    left:128px;
+}
+#income-tax{/*right size*/
+    display:block;
+    bottom: 295px;
+    left:75px;
+}
+#taxand-global{/*right size*/
+    display:block;
+    top:199px;
+    left: 100px;
+}
+#merger{/*right size*/
+    display:block;
+    top:125px;
+    left:166px;
+}
+/*TABLET SCREEN*/
+/*
+    ****MUST EDIT FOR TABLET SCREEN*****
+    ****CURRENTLY HAS DIMENSIONS FOR PHONE****
+
+*/
+@media (max-width: 800px) and (min-width:4810px){
+    .wheel-links a{
+        position: absolute;
+        color:#ffff;
+        font-size: 7px;
+        text-align: center;
+        line-height: 7px;
+        width:100px;
+    }
+    #fed-tax{/*right size*/
+        display: block;
+        top:32px;
+        left:95px;
+    }
+    #state-local-tax{/*right size*/
+        display:block;
+        top:33px;
+        left:150px;
+    }
+    #global-trans{/*right size*/
+        display:block;
+        top:54px;
+        left:207px;
+    }
+    #international-tax{/*right size*/
+        display:block;
+        top:100px;
+        left:244px;
+    }
+    #real-estate-tax{/*right size*/
+        display:block;
+        top:156px;
+        left:260px;
+    }
+    #sale-use{/*right size*/
+        display:block;
+        top:212px;
+        left:254px;
+        height:15px;
+    }
+    #bankruptcy{/*right size*/
+        display:block;
+        top:262px;
+        left:227px;
+    }
+    #transfer-pricing{/*right size*/
+        display:block;
+        top:300px;
+        left:184px;
+    }
+    #research-incentives{/*right size*/
+        display:block;
+        top:307px;
+        left:126px;
+    }
+    #private-client{/*right size*/
+        display:block;
+        top:296px;
+        left:67px;
+    }
+    #compensation{/*right size*/
+        display:block;
+        top:260px;
+        left:20px;
+    }
+    #uk-tax{/*right size*/
+        display:block;
+        top:213px;
+        left:0;
+        padding-right:13px;
+    }
+    #income-tax{/*right size*/
+        display:block;
+        top:155px;
+        left:0;
+        padding-right:23px;
+    }
+    #taxand-global{/*right size*/
+        display:block;
+        top:100px;
+        left:0;
+    }
+    #merger{/*right size*/
+        display:block;
+        top:56px;
+        left:42px;
+    }
+}
+/*PHONE SCREEN*/
+@media (max-width: 480px) and (min-width:320px){
+    .wheel-links a{
+        position: absolute;
+        color:#ffff;
+        font-size: 7px;
+        text-align: center;
+        line-height: 7px;
+        width:100px;
+    }
+    #fed-tax{/*right size*/
+        display: block;
+        top:32px;
+        left:95px;
+    }
+    #state-local-tax{/*right size*/
+        display:block;
+        top:33px;
+        left:150px;
+    }
+    #global-trans{/*right size*/
+        display:block;
+        top:54px;
+        left:207px;
+    }
+    #international-tax{/*right size*/
+        display:block;
+        top:100px;
+        left:244px;
+    }
+    #real-estate-tax{/*right size*/
+        display:block;
+        top:156px;
+        left:260px;
+    }
+    #sale-use{/*right size*/
+        display:block;
+        top:212px;
+        left:254px;
+        height:15px;
+    }
+    #bankruptcy{/*right size*/
+        display:block;
+        top:262px;
+        left:227px;
+    }
+    #transfer-pricing{/*right size*/
+        display:block;
+        top:300px;
+        left:184px;
+    }
+    #research-incentives{/*right size*/
+        display:block;
+        top:307px;
+        left:126px;
+    }
+    #private-client{/*right size*/
+        display:block;
+        top:296px;
+        left:67px;
+    }
+    #compensation{/*right size*/
+        display:block;
+        top:260px;
+        left:20px;
+    }
+    #uk-tax{/*right size*/
+        display:block;
+        top:213px;
+        left:0;
+        padding-right:13px;
+    }
+    #income-tax{/*right size*/
+        display:block;
+        top:155px;
+        left:0;
+        padding-right:23px;
+    }
+    #taxand-global{/*right size*/
+        display:block;
+        top:100px;
+        left:0;
+    }
+    #merger{/*right size*/
+        display:block;
+        top:56px;
+        left:42px;
+    }
+}
